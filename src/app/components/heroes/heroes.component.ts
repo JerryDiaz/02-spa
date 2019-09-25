@@ -20,7 +20,6 @@ export class HeroesComponent implements OnInit {
   ngOnInit() {
 
     this.heroes = this._heroesService.getHeroes();
-
   }
 
   verHeroe(idx:number){
